@@ -12,6 +12,10 @@ def introduction_with_language(name,language)
   "Hi, my name is #{name} and I ma learning to program in #{langauge}"
 end
 
+def introduction_with_language(name,language = "Ruby")
+  "Hi, my name is #{name} and I ma learning to program in #{langauge}"
+end
+
 
 
 
